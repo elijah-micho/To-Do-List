@@ -1,3 +1,37 @@
+.topnav{
+    display: flex;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #F4F6FF;
+}
+
+.topnav span{
+    font-family: 'Lato', sans-serif;
+    display: table;
+    margin: auto;
+    font-size: 45px;
+}
+
+.topnav a{
+    float: right;
+    font-size: 25px;
+    transition: 0.2s;
+    text-decoration: none;
+    color: #07031A;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.topnav a:hover{
+    color: #FBD46D;
+    border: 5px solid #FBD46D;
+    border-radius: 50%;
+}
+
 .sidenav{
     height: 100%;
     width: 250px;
@@ -10,6 +44,7 @@
     background-color: #07031A;
     padding-top: 30px;
     box-shadow: 10px 0px 11px -5px rgba(0,0,0,0.66);
+    padding-top: 100px;
 }
 
 .sidenav a {
